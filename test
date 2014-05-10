@@ -1,4 +1,0 @@
-R CMD INSTALL --configure-args="PKG_CFLAGS=-fPIC \
-    PKG_CPPFLAGS=-I${CPLEX_INCLUDE_PATH} \
-    PKG_LIBS='-L${CPLEX_INCLUDE_PATH}/static_pic \
-    -lcplex -lm -lpthread'" Rcplex_0.3-0.tar.gz
