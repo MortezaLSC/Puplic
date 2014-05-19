@@ -1,10 +1,11 @@
 #!/bin/bash
+{
+    sleep 5m
+    kill $$
+} &
 
-START=$(date +%s)
-
-while [[ $(($(date +%s) - $START)) -ne 300 ]]
+while true
 do
-    #do something here
+    date
+    sleep 1
 done
-
-echo QUIT
